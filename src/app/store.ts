@@ -1,3 +1,4 @@
+import logger from 'redux-logger'
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'
 
 import rootReducer from '../reducers'
@@ -5,6 +6,8 @@ import rootReducer from '../reducers'
 export function makeStore() {
   return configureStore({
     reducer: rootReducer,
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+    devTools: process.env.NODE_ENV !== 'production',
   })
 }
 
