@@ -1,0 +1,1 @@
+export const TITLE = 'Primelab Todo List'
