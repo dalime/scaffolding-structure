@@ -1,1 +1,1 @@
-export const TITLE = 'Primelab Todo List'
+export const TITLE = 'Todo List'

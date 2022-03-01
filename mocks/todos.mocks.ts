@@ -10,7 +10,7 @@ export const todos: Todo[] = [
   {
     _id: '2',
     title: 'Develop React Components',
-    description: 'Develop needed React Components for PrimeLab frontend',
+    description: 'Develop needed React Components for frontend',
     status: TodoStatus.inProgress,
   },
   {

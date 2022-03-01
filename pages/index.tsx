@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Scaffoling App - {TITLE}</title>
-        <meta name="description" content="Sample PrimeLab Scaffolding app" />
+        <meta name="description" content="Scaffolding app" />
         <link rel="icon" href="/img/near-logo.ico" />
       </Head>
 
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href='https://primelab.io'
+          href='https://near.org/'
           target="_blank"
           rel="noopener noreferrer"
         >
