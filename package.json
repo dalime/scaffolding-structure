@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
@@ -26,6 +27,7 @@
     "@types/react": "17.0.39",
     "@types/react-redux": "^7.1.22",
     "@types/redux": "^3.6.0",
+    "babel-jest": "^27.5.1",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
     "jest": "^27.5.1",
