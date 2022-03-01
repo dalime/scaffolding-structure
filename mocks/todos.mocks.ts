@@ -20,3 +20,7 @@ export const todos: Todo[] = [
     status: TodoStatus.inProgress,
   }
 ];
+
+export const getTodos = (): Todo[] => {
+  return todos
+}
