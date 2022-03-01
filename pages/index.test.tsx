@@ -1,4 +1,4 @@
-import app from './_app'
+import _app from './_app'
 
 describe('Sample test', () => {
   it('should pass', () => {

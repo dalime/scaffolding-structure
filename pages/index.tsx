@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href='https://primlab.io'
+          href='https://primelab.io'
           target="_blank"
           rel="noopener noreferrer"
         >
